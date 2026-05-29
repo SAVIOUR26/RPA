@@ -1,0 +1,34 @@
+name: Deploy RPA Ministries Website via FTP
+
+on:
+  push:
+    branches:
+      - main
+      - claude/practical-goldberg-m5H5S
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: FTP Deploy to restorationprayeraltar.online
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            README.md
+            *.docx
+            assets/ministry-profile.docx
+          log-level: verbose
+          state-name: .ftp-deploy-sync-state.json
