@@ -208,4 +208,4 @@ Then open `http://localhost:8000` in your browser.
 ---
 
 **© 2025 Restoration Prayer Altar Ministries Ltd. All Rights Reserved.**  
-Registered under Uganda Registration Services Bureau (URSB).
+Built by [Thirdsan](https://thirdsan.com/) — Building the Next Gen Digital Africa

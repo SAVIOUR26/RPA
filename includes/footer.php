@@ -91,7 +91,7 @@
     <div class="footer-bottom">
         <div class="container">
             <p>&copy; <?= date('Y') ?> <?= SITE_NAME ?>. All Rights Reserved.</p>
-            <p>Registered under Uganda Registration Services Bureau (URSB)</p>
+            <p>Built by <a href="https://thirdsan.com/" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600;transition:opacity 0.2s;" onmouseover="this.style.opacity='.75'" onmouseout="this.style.opacity='1'">Thirdsan</a> &mdash; Building the Next Gen Digital Africa</p>
         </div>
     </div>
 </footer>
