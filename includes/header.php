@@ -8,9 +8,9 @@
     <meta name="keywords" content="Restoration Prayer Altar, RPA Ministries, Church Mbale Uganda, Prayer Ministry, Evangelism Uganda, Pastor Davis Wangoolo">
     <meta property="og:title" content="<?= isset($page_title) ? $page_title . ' | ' . SITE_SHORT : SITE_NAME ?>">
     <meta property="og:description" content="<?= SITE_TAGLINE ?>">
-    <meta property="og:image" content="assets/images/photo-13.jpg">
+    <meta property="og:image" content="assets/images/rpa-logo.png">
     <title><?= isset($page_title) ? htmlspecialchars($page_title) . ' | ' . SITE_SHORT : SITE_NAME ?></title>
-    <link rel="icon" type="image/jpeg" href="assets/images/photo-13.jpg">
+    <link rel="icon" type="image/png" href="assets/images/rpa-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
         <div class="nav-brand">
             <a href="index.php" class="brand-link">
                 <div class="logo-wrap">
-                    <img src="assets/images/photo-13.jpg" alt="RPA Ministries Logo" class="logo-img">
+                    <img src="assets/images/rpa-logo.png" alt="RPA Ministries Logo" class="logo-img">
                 </div>
                 <div class="brand-text">
                     <span class="brand-name">RPA Ministries</span>

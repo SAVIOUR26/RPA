@@ -7,7 +7,7 @@
                 <!-- Brand Column -->
                 <div class="footer-col footer-brand">
                     <div class="footer-logo">
-                        <img src="assets/images/photo-13.jpg" alt="RPA Ministries Logo">
+                        <img src="assets/images/rpa-logo.png" alt="RPA Ministries Logo">
                         <div>
                             <strong>RPA Ministries</strong>
                             <span>Restoration Prayer Altar</span>
