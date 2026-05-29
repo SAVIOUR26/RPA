@@ -9,7 +9,7 @@ require_once 'includes/header.php';
             <span class="section-label" style="color:var(--gold);">What We Do</span>
             <h1>Our Ministries</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Ministries</span>
             </div>
@@ -223,8 +223,8 @@ require_once 'includes/header.php';
             <h2>Find Your Place to Serve</h2>
             <p>Every department in RPA Ministries needs dedicated volunteers and partners. Find your calling and serve God with your gifts.</p>
             <div class="cta-actions">
-                <a href="contact.php" class="btn btn-gold"><i class="fas fa-envelope"></i> Connect With Us</a>
-                <a href="give.php" class="btn btn-outline-white"><i class="fas fa-hand-holding-heart"></i> Support a Ministry</a>
+                <a href="/contact" class="btn btn-gold"><i class="fas fa-envelope"></i> Connect With Us</a>
+                <a href="/give" class="btn btn-outline-white"><i class="fas fa-hand-holding-heart"></i> Support a Ministry</a>
             </div>
         </div>
     </div>

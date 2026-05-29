@@ -11,6 +11,7 @@ define('SITE_POBOX', 'P.O. Box 312608, Mbale, Uganda');
 define('SITE_URL', 'https://www.restorationprayeraltar.online');
 
 function active_page($page) {
-    $current = basename($_SERVER['PHP_SELF'], '.php');
-    return ($current === $page) ? 'active' : '';
+    $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+    if ($page === 'index' && $uri === '') return 'active';
+    return ($uri === $page) ? 'active' : '';
 }

@@ -27,10 +27,10 @@ require_once 'includes/header.php';
                 "Men ought always to pray and not to faint." — Luke 18:1
             </div>
             <div class="hero-actions">
-                <a href="about.php" class="btn btn-crimson">
+                <a href="/about" class="btn btn-crimson">
                     <i class="fas fa-church"></i> Discover Our Ministry
                 </a>
-                <a href="events.php" class="btn btn-outline-white">
+                <a href="/events" class="btn btn-outline-white">
                     <i class="fas fa-calendar-alt"></i> Upcoming Events
                 </a>
             </div>
@@ -107,7 +107,7 @@ require_once 'includes/header.php';
                     <div class="feature-chip"><i class="fas fa-globe"></i> Missions</div>
                     <div class="feature-chip"><i class="fas fa-music"></i> Worship</div>
                 </div>
-                <a href="about.php" class="btn btn-crimson">
+                <a href="/about" class="btn btn-crimson">
                     <i class="fas fa-arrow-right"></i> Learn More About Us
                 </a>
             </div>
@@ -131,41 +131,41 @@ require_once 'includes/header.php';
                 <div class="ministry-icon"><i class="fas fa-pray"></i></div>
                 <h3>Prayer &amp; Intercession</h3>
                 <p>Establishing strong prayer altars across communities. We believe persistent prayer is the engine of spiritual transformation and revival.</p>
-                <a href="ministries.php#prayer" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="/ministries#prayer" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="ministry-card">
                 <div class="ministry-icon"><i class="fas fa-bullhorn"></i></div>
                 <h3>Evangelism &amp; Crusades</h3>
                 <p>Taking the Gospel to the streets, communities, and nations through powerful crusades, revival meetings, and mission outreaches.</p>
-                <a href="ministries.php#evangelism" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="/ministries#evangelism" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="ministry-card">
                 <div class="ministry-icon"><i class="fas fa-bible"></i></div>
                 <h3>Bible College</h3>
                 <p>Equipping believers and leaders with solid biblical foundation, theological training, and practical ministry skills for kingdom service.</p>
-                <a href="ministries.php#bible" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="/ministries#bible" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="ministry-card">
                 <div class="ministry-icon"><i class="fas fa-female"></i></div>
                 <h3>Women Ministry</h3>
                 <p>Empowering women through the Word of God, prayer, mentorship, and fellowship to walk in their God-given purpose and calling.</p>
-                <a href="ministries.php#women" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="/ministries#women" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="ministry-card">
                 <div class="ministry-icon"><i class="fas fa-music"></i></div>
                 <h3>Worship &amp; Choir</h3>
                 <p>Creating an atmosphere of heartfelt worship and praise, leading the congregation into the presence of God through Spirit-led music.</p>
-                <a href="ministries.php#worship" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="/ministries#worship" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="ministry-card">
                 <div class="ministry-icon"><i class="fas fa-heart"></i></div>
                 <h3>Marrieds Department</h3>
                 <p>Strengthening marriages and families through biblical teaching, counseling, and fellowship — building God-honoring homes.</p>
-                <a href="ministries.php#marriage" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="/ministries#marriage" class="ministry-link">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
         <div class="text-center mt-32">
-            <a href="ministries.php" class="btn btn-outline-crimson">
+            <a href="/ministries" class="btn btn-outline-crimson">
                 <i class="fas fa-th-large"></i> View All Ministries
             </a>
         </div>
@@ -215,7 +215,7 @@ require_once 'includes/header.php';
                         <span><i class="fas fa-clock"></i> 6:00 PM onwards</span>
                     </div>
                     <p>A powerful three-day crusade and cross-over service to welcome the New Year in prayer, worship, and the presence of God.</p>
-                    <a href="events.php" class="btn btn-crimson" style="padding:10px 22px; font-size:0.82rem;">
+                    <a href="/events" class="btn btn-crimson" style="padding:10px 22px; font-size:0.82rem;">
                         <i class="fas fa-info-circle"></i> Event Details
                     </a>
                 </div>
@@ -237,7 +237,7 @@ require_once 'includes/header.php';
                         <span><i class="fas fa-clock"></i> 10:00 AM EAT</span>
                     </div>
                     <p>Join our vibrant online community every Sunday for worship, the Word, prayer, and fellowship from wherever you are in the world.</p>
-                    <a href="events.php" class="btn btn-crimson" style="padding:10px 22px; font-size:0.82rem;">
+                    <a href="/events" class="btn btn-crimson" style="padding:10px 22px; font-size:0.82rem;">
                         <i class="fas fa-video"></i> Join Online
                     </a>
                 </div>
@@ -259,14 +259,14 @@ require_once 'includes/header.php';
                         <span><i class="fas fa-clock"></i> 9:00 PM – 5:00 AM</span>
                     </div>
                     <p>An all-night prayer and intercession service where we storm heaven together, seeking God's face for personal, national, and global transformation.</p>
-                    <a href="events.php" class="btn btn-crimson" style="padding:10px 22px; font-size:0.82rem;">
+                    <a href="/events" class="btn btn-crimson" style="padding:10px 22px; font-size:0.82rem;">
                         <i class="fas fa-info-circle"></i> Event Details
                     </a>
                 </div>
             </div>
         </div>
         <div class="text-center mt-32">
-            <a href="events.php" class="btn btn-outline-crimson">
+            <a href="/events" class="btn btn-outline-crimson">
                 <i class="fas fa-calendar-alt"></i> View All Events
             </a>
         </div>
@@ -319,7 +319,7 @@ require_once 'includes/header.php';
             </div>
         </div>
         <div class="text-center mt-32">
-            <a href="leadership.php" class="btn btn-outline-crimson">
+            <a href="/leadership" class="btn btn-outline-crimson">
                 <i class="fas fa-users"></i> Meet All Leaders
             </a>
         </div>
@@ -361,7 +361,7 @@ require_once 'includes/header.php';
             </div>
         </div>
         <div class="text-center mt-32">
-            <a href="gallery.php" class="btn btn-gold">
+            <a href="/gallery" class="btn btn-gold">
                 <i class="fas fa-images"></i> View Full Gallery
             </a>
         </div>
@@ -376,10 +376,10 @@ require_once 'includes/header.php';
             <h2>Partner With Us in This Great Commission</h2>
             <p>Your prayers, presence, and financial support help us reach more souls, plant more churches, and restore more lives across Uganda and the world.</p>
             <div class="cta-actions">
-                <a href="give.php" class="btn btn-gold">
+                <a href="/give" class="btn btn-gold">
                     <i class="fas fa-hand-holding-heart"></i> Support Our Ministry
                 </a>
-                <a href="contact.php" class="btn btn-outline-white">
+                <a href="/contact" class="btn btn-outline-white">
                     <i class="fas fa-envelope"></i> Get in Touch
                 </a>
             </div>

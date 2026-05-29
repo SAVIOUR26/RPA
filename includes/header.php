@@ -40,7 +40,7 @@
 <header class="site-header" id="siteHeader">
     <div class="container">
         <div class="nav-brand">
-            <a href="index.php" class="brand-link">
+            <a href="/" class="brand-link">
                 <div class="logo-wrap">
                     <img src="assets/images/rpa-logo.png" alt="RPA Ministries Logo" class="logo-img">
                 </div>
@@ -53,28 +53,28 @@
 
         <nav class="main-nav" id="mainNav">
             <ul class="nav-list">
-                <li><a href="index.php" class="nav-link <?= active_page('index') ?>">Home</a></li>
-                <li><a href="about.php" class="nav-link <?= active_page('about') ?>">About Us</a></li>
+                <li><a href="/" class="nav-link <?= active_page('index') ?>">Home</a></li>
+                <li><a href="/about" class="nav-link <?= active_page('about') ?>">About Us</a></li>
                 <li class="has-dropdown">
-                    <a href="ministries.php" class="nav-link <?= active_page('ministries') ?>">Ministries <i class="fas fa-chevron-down"></i></a>
+                    <a href="/ministries" class="nav-link <?= active_page('ministries') ?>">Ministries <i class="fas fa-chevron-down"></i></a>
                     <ul class="dropdown">
-                        <li><a href="ministries.php#prayer">Prayer & Intercession</a></li>
-                        <li><a href="ministries.php#evangelism">Evangelism & Crusades</a></li>
-                        <li><a href="ministries.php#women">Women Ministry</a></li>
-                        <li><a href="ministries.php#youth">Youth & Discipleship</a></li>
-                        <li><a href="ministries.php#worship">Worship & Choir</a></li>
-                        <li><a href="ministries.php#bible">Bible College</a></li>
+                        <li><a href="/ministries#prayer">Prayer & Intercession</a></li>
+                        <li><a href="/ministries#evangelism">Evangelism & Crusades</a></li>
+                        <li><a href="/ministries#women">Women Ministry</a></li>
+                        <li><a href="/ministries#youth">Youth & Discipleship</a></li>
+                        <li><a href="/ministries#worship">Worship & Choir</a></li>
+                        <li><a href="/ministries#bible">Bible College</a></li>
                     </ul>
                 </li>
-                <li><a href="leadership.php" class="nav-link <?= active_page('leadership') ?>">Leadership</a></li>
-                <li><a href="events.php" class="nav-link <?= active_page('events') ?>">Events</a></li>
-                <li><a href="gallery.php" class="nav-link <?= active_page('gallery') ?>">Gallery</a></li>
-                <li><a href="contact.php" class="nav-link <?= active_page('contact') ?>">Contact</a></li>
+                <li><a href="/leadership" class="nav-link <?= active_page('leadership') ?>">Leadership</a></li>
+                <li><a href="/events" class="nav-link <?= active_page('events') ?>">Events</a></li>
+                <li><a href="/gallery" class="nav-link <?= active_page('gallery') ?>">Gallery</a></li>
+                <li><a href="/contact" class="nav-link <?= active_page('contact') ?>">Contact</a></li>
             </ul>
         </nav>
 
         <div class="nav-actions">
-            <a href="give.php" class="btn btn-gold">Give Now</a>
+            <a href="/give" class="btn btn-gold">Give Now</a>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
             </button>

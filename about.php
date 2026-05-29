@@ -10,7 +10,7 @@ require_once 'includes/header.php';
             <span class="section-label" style="color:var(--gold);">Our Story</span>
             <h1>About RPA Ministries</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>About Us</span>
             </div>
@@ -50,8 +50,8 @@ require_once 'includes/header.php';
                     a testament to God's faithfulness and the ministry's unwavering commitment to the Great Commission.
                 </p>
                 <div style="display:flex;gap:16px;flex-wrap:wrap;">
-                    <a href="leadership.php" class="btn btn-crimson"><i class="fas fa-users"></i> Our Leadership</a>
-                    <a href="contact.php" class="btn btn-outline-crimson"><i class="fas fa-envelope"></i> Get in Touch</a>
+                    <a href="/leadership" class="btn btn-crimson"><i class="fas fa-users"></i> Our Leadership</a>
+                    <a href="/contact" class="btn btn-outline-crimson"><i class="fas fa-envelope"></i> Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -153,8 +153,8 @@ require_once 'includes/header.php';
             <h2>Be Part of This Great Move of God</h2>
             <p>Whether through prayer, partnership, or presence — there is a place for you in this ministry. Connect with us today.</p>
             <div class="cta-actions">
-                <a href="contact.php" class="btn btn-gold"><i class="fas fa-envelope"></i> Contact Us</a>
-                <a href="give.php" class="btn btn-outline-white"><i class="fas fa-hand-holding-heart"></i> Support Us</a>
+                <a href="/contact" class="btn btn-gold"><i class="fas fa-envelope"></i> Contact Us</a>
+                <a href="/give" class="btn btn-outline-white"><i class="fas fa-hand-holding-heart"></i> Support Us</a>
             </div>
         </div>
     </div>

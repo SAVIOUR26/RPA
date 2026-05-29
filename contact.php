@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <span class="section-label" style="color:var(--gold);">Reach Out</span>
             <h1>Contact Us</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Contact</span>
             </div>
@@ -190,8 +190,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h2>We'd Love to Connect With You</h2>
             <p>Whether you're in Uganda or anywhere in the world — there is a community waiting for you in RPA Ministries.</p>
             <div class="cta-actions">
-                <a href="give.php" class="btn btn-gold"><i class="fas fa-hand-holding-heart"></i> Partner With Us</a>
-                <a href="events.php" class="btn btn-outline-white"><i class="fas fa-calendar-alt"></i> See Events</a>
+                <a href="/give" class="btn btn-gold"><i class="fas fa-hand-holding-heart"></i> Partner With Us</a>
+                <a href="/events" class="btn btn-outline-white"><i class="fas fa-calendar-alt"></i> See Events</a>
             </div>
         </div>
     </div>

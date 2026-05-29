@@ -9,7 +9,7 @@ require_once 'includes/header.php';
             <span class="section-label" style="color:var(--gold);">What's On</span>
             <h1>Events &amp; Crusades</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Events</span>
             </div>
@@ -40,7 +40,7 @@ require_once 'includes/header.php';
                     <span><i class="fas fa-users"></i> Open to All</span>
                 </div>
                 <p>Welcome to the most anticipated spiritual gathering of the year! Join thousands of believers for three powerful nights of prayer, worship, preaching of the Word, and cross-over into the New Year in the presence of God. Past crusades have seen miraculous healings, salvation experiences, and extraordinary encounters with the Holy Spirit.</p>
-                <a href="contact.php" class="btn btn-crimson"><i class="fas fa-calendar-plus"></i> Register Interest</a>
+                <a href="/contact" class="btn btn-crimson"><i class="fas fa-calendar-plus"></i> Register Interest</a>
             </div>
         </div>
 
@@ -59,7 +59,7 @@ require_once 'includes/header.php';
                     <span><i class="fas fa-users"></i> All Welcome</span>
                 </div>
                 <p>Can't be in Mbale? No problem. Our vibrant Sunday Online Church brings together believers from Uganda, the UK, Netherlands, Saudi Arabia and beyond for powerful worship, the Word, and community prayer. Download our online church guidelines to join seamlessly.</p>
-                <a href="contact.php" class="btn btn-crimson"><i class="fas fa-video"></i> Get Join Link</a>
+                <a href="/contact" class="btn btn-crimson"><i class="fas fa-video"></i> Get Join Link</a>
             </div>
         </div>
 
@@ -78,7 +78,7 @@ require_once 'includes/header.php';
                     <span><i class="fas fa-users"></i> Open to All Believers</span>
                 </div>
                 <p>Come and storm heaven! Our monthly all-night prayer gathering is an open altar where believers come together to intercede for individuals, families, the nation of Uganda, and the global church. Testimonies abound — come experience God's power firsthand.</p>
-                <a href="contact.php" class="btn btn-crimson"><i class="fas fa-info-circle"></i> Get Details</a>
+                <a href="/contact" class="btn btn-crimson"><i class="fas fa-info-circle"></i> Get Details</a>
             </div>
         </div>
 
@@ -97,7 +97,7 @@ require_once 'includes/header.php';
                     <span><i class="fas fa-users"></i> Volunteers Welcome</span>
                 </div>
                 <p>Our quarterly village evangelism outreaches take the Gospel to remote communities around Mbale and Eastern Uganda. We combine preaching with practical service — distributing Bibles, praying for the sick, and planting new church groups in underserved areas.</p>
-                <a href="contact.php" class="btn btn-crimson"><i class="fas fa-hands-helping"></i> Volunteer</a>
+                <a href="/contact" class="btn btn-crimson"><i class="fas fa-hands-helping"></i> Volunteer</a>
             </div>
         </div>
 
@@ -116,7 +116,7 @@ require_once 'includes/header.php';
                     <span><i class="fas fa-users"></i> Women Only</span>
                 </div>
                 <p>A powerful annual gathering designed specifically to empower, refresh, and equip women in their faith, purpose, and calling. Featuring guest speakers, workshops, worship, intercession, and powerful fellowship among women of God from across Uganda.</p>
-                <a href="contact.php" class="btn btn-crimson"><i class="fas fa-calendar-plus"></i> Stay Updated</a>
+                <a href="/contact" class="btn btn-crimson"><i class="fas fa-calendar-plus"></i> Stay Updated</a>
             </div>
         </div>
     </div>
@@ -151,7 +151,7 @@ require_once 'includes/header.php';
             <?php endforeach; ?>
         </div>
         <div class="text-center mt-32">
-            <a href="gallery.php" class="btn btn-outline-crimson"><i class="fas fa-images"></i> View Photo Gallery</a>
+            <a href="/gallery" class="btn btn-outline-crimson"><i class="fas fa-images"></i> View Photo Gallery</a>
         </div>
     </div>
 </section>
@@ -162,8 +162,8 @@ require_once 'includes/header.php';
             <h2>Don't Miss Our Next Event</h2>
             <p>Stay connected and be the first to know about upcoming crusades, prayer nights, and ministry gatherings.</p>
             <div class="cta-actions">
-                <a href="contact.php" class="btn btn-gold"><i class="fas fa-envelope"></i> Subscribe for Updates</a>
-                <a href="give.php" class="btn btn-outline-white"><i class="fas fa-hand-holding-heart"></i> Support an Event</a>
+                <a href="/contact" class="btn btn-gold"><i class="fas fa-envelope"></i> Subscribe for Updates</a>
+                <a href="/give" class="btn btn-outline-white"><i class="fas fa-hand-holding-heart"></i> Support an Event</a>
             </div>
         </div>
     </div>

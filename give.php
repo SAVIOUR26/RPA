@@ -9,7 +9,7 @@ require_once 'includes/header.php';
             <span class="section-label" style="color:var(--gold);">Partnership</span>
             <h1>Give &amp; Support</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Give</span>
             </div>
@@ -50,7 +50,7 @@ require_once 'includes/header.php';
                         <span style="display:block;font-size:0.8rem;color:var(--gray-600);">Account Name: Restoration Prayer Altar</span>
                     </div>
                 </div>
-                <a href="contact.php" class="btn btn-crimson" style="width:100%;justify-content:center;"><i class="fas fa-phone"></i> Confirm Payment</a>
+                <a href="/contact" class="btn btn-crimson" style="width:100%;justify-content:center;"><i class="fas fa-phone"></i> Confirm Payment</a>
             </div>
 
             <div class="give-card" style="border-color:var(--gold);box-shadow:0 0 0 2px rgba(200,169,81,0.25);">
@@ -67,7 +67,7 @@ require_once 'includes/header.php';
                         <div style="margin-top:4px;color:var(--gray-600);font-size:0.8rem;">Contact us for full account details.</div>
                     </div>
                 </div>
-                <a href="contact.php" class="btn btn-crimson" style="width:100%;justify-content:center;"><i class="fas fa-university"></i> Get Bank Details</a>
+                <a href="/contact" class="btn btn-crimson" style="width:100%;justify-content:center;"><i class="fas fa-university"></i> Get Bank Details</a>
             </div>
 
             <div class="give-card">
@@ -83,7 +83,7 @@ require_once 'includes/header.php';
                         <li style="display:flex;align-items:center;gap:8px;"><i class="fas fa-check" style="color:var(--gold);"></i> Bank Wire Transfer</li>
                     </ul>
                 </div>
-                <a href="contact.php" class="btn btn-crimson" style="width:100%;justify-content:center;"><i class="fas fa-envelope"></i> Contact for Details</a>
+                <a href="/contact" class="btn btn-crimson" style="width:100%;justify-content:center;"><i class="fas fa-envelope"></i> Contact for Details</a>
             </div>
         </div>
 
@@ -131,8 +131,8 @@ require_once 'includes/header.php';
             <h2>Your Seed, His Harvest</h2>
             <p>There is no gift too small. Whatever you can give, give it with a cheerful heart — and God will multiply it for His glory.</p>
             <div class="cta-actions">
-                <a href="contact.php" class="btn btn-gold"><i class="fas fa-envelope"></i> Contact Us to Give</a>
-                <a href="about.php" class="btn btn-outline-white"><i class="fas fa-book-open"></i> Our Story</a>
+                <a href="/contact" class="btn btn-gold"><i class="fas fa-envelope"></i> Contact Us to Give</a>
+                <a href="/about" class="btn btn-outline-white"><i class="fas fa-book-open"></i> Our Story</a>
             </div>
         </div>
     </div>

@@ -23,7 +23,7 @@ for ($i = 1; $i <= 18; $i++) {
             <span class="section-label" style="color:var(--gold);">Visual Stories</span>
             <h1>Photo Gallery</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Gallery</span>
             </div>
@@ -66,8 +66,8 @@ for ($i = 1; $i <= 18; $i++) {
             <h2>Be Part of the Story</h2>
             <p>Every photo tells a story of restoration. Join us at our next event and experience God's presence firsthand.</p>
             <div class="cta-actions">
-                <a href="events.php" class="btn btn-gold"><i class="fas fa-calendar-alt"></i> See Upcoming Events</a>
-                <a href="contact.php" class="btn btn-outline-white"><i class="fas fa-envelope"></i> Contact Us</a>
+                <a href="/events" class="btn btn-gold"><i class="fas fa-calendar-alt"></i> See Upcoming Events</a>
+                <a href="/contact" class="btn btn-outline-white"><i class="fas fa-envelope"></i> Contact Us</a>
             </div>
         </div>
     </div>

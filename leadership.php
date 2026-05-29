@@ -9,7 +9,7 @@ require_once 'includes/header.php';
             <span class="section-label" style="color:var(--gold);">The Team</span>
             <h1>Our Leadership</h1>
             <div class="breadcrumb">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <i class="fas fa-chevron-right"></i>
                 <span>Leadership</span>
             </div>
@@ -67,7 +67,7 @@ require_once 'includes/header.php';
                         <span style="font-size:0.9rem;color:var(--gray-800);">Uganda, UK, Netherlands, Saudi Arabia</span>
                     </div>
                 </div>
-                <a href="contact.php" class="btn btn-crimson"><i class="fas fa-envelope"></i> Connect With Us</a>
+                <a href="/contact" class="btn btn-crimson"><i class="fas fa-envelope"></i> Connect With Us</a>
             </div>
         </div>
     </div>
@@ -156,8 +156,8 @@ require_once 'includes/header.php';
             <h2>Feel Called to Serve?</h2>
             <p>We believe every believer is called to serve. If you feel led to join our ministry team or volunteer, we would love to hear from you.</p>
             <div class="cta-actions">
-                <a href="contact.php" class="btn btn-gold"><i class="fas fa-envelope"></i> Reach Out to Us</a>
-                <a href="about.php" class="btn btn-outline-white"><i class="fas fa-book-open"></i> Learn Our Story</a>
+                <a href="/contact" class="btn btn-gold"><i class="fas fa-envelope"></i> Reach Out to Us</a>
+                <a href="/about" class="btn btn-outline-white"><i class="fas fa-book-open"></i> Learn Our Story</a>
             </div>
         </div>
     </div>

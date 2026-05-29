@@ -31,14 +31,14 @@
                 <div class="footer-col">
                     <h4 class="footer-heading">Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="index.php"><i class="fas fa-angle-right"></i> Home</a></li>
-                        <li><a href="about.php"><i class="fas fa-angle-right"></i> About Us</a></li>
-                        <li><a href="leadership.php"><i class="fas fa-angle-right"></i> Our Leadership</a></li>
-                        <li><a href="ministries.php"><i class="fas fa-angle-right"></i> Ministries</a></li>
-                        <li><a href="events.php"><i class="fas fa-angle-right"></i> Events</a></li>
-                        <li><a href="gallery.php"><i class="fas fa-angle-right"></i> Gallery</a></li>
-                        <li><a href="give.php"><i class="fas fa-angle-right"></i> Give / Support</a></li>
-                        <li><a href="contact.php"><i class="fas fa-angle-right"></i> Contact Us</a></li>
+                        <li><a href="/"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="/about"><i class="fas fa-angle-right"></i> About Us</a></li>
+                        <li><a href="/leadership"><i class="fas fa-angle-right"></i> Our Leadership</a></li>
+                        <li><a href="/ministries"><i class="fas fa-angle-right"></i> Ministries</a></li>
+                        <li><a href="/events"><i class="fas fa-angle-right"></i> Events</a></li>
+                        <li><a href="/gallery"><i class="fas fa-angle-right"></i> Gallery</a></li>
+                        <li><a href="/give"><i class="fas fa-angle-right"></i> Give / Support</a></li>
+                        <li><a href="/contact"><i class="fas fa-angle-right"></i> Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -46,14 +46,14 @@
                 <div class="footer-col">
                     <h4 class="footer-heading">Our Ministries</h4>
                     <ul class="footer-links">
-                        <li><a href="ministries.php#prayer"><i class="fas fa-angle-right"></i> Prayer & Intercession</a></li>
-                        <li><a href="ministries.php#evangelism"><i class="fas fa-angle-right"></i> Evangelism & Crusades</a></li>
-                        <li><a href="ministries.php#women"><i class="fas fa-angle-right"></i> Women Ministry</a></li>
-                        <li><a href="ministries.php#youth"><i class="fas fa-angle-right"></i> Youth & Discipleship</a></li>
-                        <li><a href="ministries.php#worship"><i class="fas fa-angle-right"></i> Worship & Choir</a></li>
-                        <li><a href="ministries.php#bible"><i class="fas fa-angle-right"></i> Bible College</a></li>
-                        <li><a href="ministries.php#marriage"><i class="fas fa-angle-right"></i> Marrieds Department</a></li>
-                        <li><a href="ministries.php#media"><i class="fas fa-angle-right"></i> Information & Media</a></li>
+                        <li><a href="/ministries#prayer"><i class="fas fa-angle-right"></i> Prayer & Intercession</a></li>
+                        <li><a href="/ministries#evangelism"><i class="fas fa-angle-right"></i> Evangelism & Crusades</a></li>
+                        <li><a href="/ministries#women"><i class="fas fa-angle-right"></i> Women Ministry</a></li>
+                        <li><a href="/ministries#youth"><i class="fas fa-angle-right"></i> Youth & Discipleship</a></li>
+                        <li><a href="/ministries#worship"><i class="fas fa-angle-right"></i> Worship & Choir</a></li>
+                        <li><a href="/ministries#bible"><i class="fas fa-angle-right"></i> Bible College</a></li>
+                        <li><a href="/ministries#marriage"><i class="fas fa-angle-right"></i> Marrieds Department</a></li>
+                        <li><a href="/ministries#media"><i class="fas fa-angle-right"></i> Information & Media</a></li>
                     </ul>
                 </div>
 
